@@ -4,7 +4,7 @@ import { BiSolidHappyAlt } from 'react-icons/bi'
 
 const WhyChooseUs = () => {
     return (
-        <div className='mb-20'>
+        <div className='my-20'>
 
             <div className='mb-10'>
                 <h2 className='lg:text-5xl text-3xl font-bold text-center mb-2'>Why<span className='text-[#fe565a]'> Choose</span> Us</h2>
