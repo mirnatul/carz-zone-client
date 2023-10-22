@@ -33,12 +33,12 @@ const AllToy = () => {
 
     return (
         <div className='max-w-7xl mx-auto mb-20'>
-            <h2 className='text-5xl text-center font-bold my-12'>All <span className='text-red-500'>Toys</span></h2>
+            <h2 className='text-5xl text-center font-bold mb-12'>All <span className='text-red-500'>Toys</span></h2>
             <div>
                 <div className='max-w-[500px] mx-auto mb-8'>
                     <p className='font-semibold mb-2'>Search by name:</p>
-                    <input type="text" placeholder="Type here" className="input w-full max-w-lg bg-yellow-200" />
-                    <button onClick={(e) => setSearchValue(e.target.value)} className='btn'>Search</button>
+                    <input type="text" placeholder="Type here" className="input w-full max-w-lg bg-red-200" />
+                    <button onClick={(e) => setSearchValue(e.target.value)} className='btn bg-[#fe565a] mt-2'>Search</button>
                 </div>
                 <div className="overflow-x-auto w-full">
                     <table className="table w-full text-center">

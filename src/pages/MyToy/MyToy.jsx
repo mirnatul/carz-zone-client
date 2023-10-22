@@ -51,7 +51,7 @@ const MyToy = () => {
 
     return (
         <div className='max-w-7xl mx-auto mb-20'>
-            <h2 className='text-5xl text-center font-bold my-12'>My <span className='text-red-500'>Toys</span></h2>
+            <h2 className='text-5xl text-center font-bold mb-12'>My <span className='text-red-500'>Toys</span></h2>
             <div>
                 <div className="overflow-x-auto w-full">
                     <table className="table w-full text-center">

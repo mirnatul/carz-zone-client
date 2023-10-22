@@ -45,7 +45,7 @@ const AddToy = () => {
 
     return (
         <div className='max-w-7xl mx-auto mb-10'>
-            <h2 className='text-center text-4xl text-red-500 mt-10 font-bold'>Add a Toy</h2>
+            <h2 className='text-center text-4xl text-[#fe565a] font-bold'>Add a Toy</h2>
             <form onSubmit={handleAddToy} className="card-body">
                 <div className="form-control max-w-[800px] mx-auto">
                     <div className='grid lg:grid-cols-2 lg:gap-4'>
@@ -113,7 +113,7 @@ const AddToy = () => {
                         </div>
                     </div>
                     <div className="form-control mt-6">
-                        <button className="btn btn-primary">Add Toy</button>
+                        <button className="btn bg-[#fe565a]">Add Toy</button>
                     </div>
                 </div>
             </form>
