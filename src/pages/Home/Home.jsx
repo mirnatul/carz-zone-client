@@ -3,6 +3,7 @@ import React from 'react';
 import Banner from './Banner/Banner';
 import Benifits from './Benifits/Benifits';
 import ContactUs from './ContactUs/ContactUs';
+import Events from './Events/Events';
 import Gallary from './Gallary/Gallary';
 import SubCategoriesTab from './SubCategoriesTab/SubCategoriesTab';
 import Subscription from './Subscription/Subscription';
@@ -17,7 +18,7 @@ Aos.init({
 
 const Home = () => {
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div className='max-w-7xl mx-auto p-2'>
             <div data-aos='fade-up'>
                 <Banner></Banner>
             </div>
@@ -34,7 +35,7 @@ const Home = () => {
                 {/* special offers */}
             </div>
             <div data-aos='fade-up'>
-                {/* top events - contest and give away */}
+                <Events></Events>
             </div>
             <div data-aos='fade-up'>
                 <WhyChooseUs></WhyChooseUs>
