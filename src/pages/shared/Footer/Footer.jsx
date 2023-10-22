@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <div className='bg-[#fff47f] text-black mt-auto'>
+        <div className='text-black mt-auto bg-slate-300'>
             <footer className="footer max-w-7xl mx-auto pt-20 pb-14 px-12">
                 <div>
                     <img className='lg:w-56 w-44' src={'./logo.png'} alt="" />
-                    <h4 className='lg:text-3xl text-lg font-bold lg:mt-8 mt-4'><span className='text-red-700'>Carz</span> Zone</h4>
+                    <h4 className='lg:text-3xl text-lg font-bold lg:mt-8 mt-4'><span className='text-[#fe565a]'>Carz</span> Zone</h4>
                     <p>© 1996-2022 Daniel A. Tysver. All Rights Reserved.</p>
                 </div>
                 <div>
