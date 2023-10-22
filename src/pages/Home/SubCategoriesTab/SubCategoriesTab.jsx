@@ -30,7 +30,7 @@ const SubCategoriesTab = () => {
 
     return (
         <div className='text-center mt-40 mb-10'>
-            <h2 className='lg:text-5xl text-3xl text-red-500 font-bold text-center mb-12'>Sub Category</h2>
+            <h2 className='lg:text-5xl text-3xl font-bold text-center mb-12'>Sub <span className='text-[#fe565a]'>Category</span></h2>
             <Tabs>
                 <TabList>
                     <Tab>Sports Car</Tab>

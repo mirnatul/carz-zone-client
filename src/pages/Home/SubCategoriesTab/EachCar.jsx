@@ -25,7 +25,7 @@ const EachCar = ({ eachCar }) => {
             <p className='font-bold text-red-700 mt-4'>{toy_name}</p>
             <p className=' my-1'>Price: <span className='font-bold'>{price}</span></p>
             <p className='font-bold text-red-500 my-1'>{ratings}</p>
-            <div onClick={handleViewDetails} className='mt-4'><Link to={`/all-toy/${_id}`} className='btn btn-warning'>View Details</Link></div>
+            <div onClick={handleViewDetails} className='mt-4'><Link to={`/all-toy/${_id}`} className='btn bg-[#fe565a]'>View Details</Link></div>
         </div>
     );
 };

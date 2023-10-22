@@ -23,8 +23,8 @@ const NavBar = () => {
     }
 
     return (
-        <div className='bg-[#FFF3B0]'>
-            <div className="navbar pt-7 max-w-7xl mx-auto pb-6">
+        <div>
+            <div className="navbar pt-2 max-w-7xl mx-auto mb-4">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -42,20 +42,20 @@ const NavBar = () => {
 
                 </div>
                 <div className="lg:navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 font-mono text-lg">
+                    <ul className="menu menu-horizontal px-1 text-lg">
                         {nav}
                     </ul>
                 </div>
                 {
                     user ?
                         <div className="avatar navbar-end flex gap-4">
-                            <div title={user.displayName} className="w-12 rounded-full ring ring-[#EA5455] ring-offset-base-100 ring-offset-2">
+                            <div title={user.displayName} className="w-12 rounded-full ring ring-[#fe565a] ring-offset-base-100 ring-offset-2">
                                 <img src={user.photoURL} />
                             </div>
-                            <button onClick={handleLogout} className="btn bg-[#EA5455] px-4 py-2 border-none">LogOut</button>
+                            <button onClick={handleLogout} className="btn bg-[#fe565a] px-4 py-2 border-none">LogOut</button>
                         </div> :
                         <div className="navbar-end">
-                            <Link to='/login' className="btn bg-[#EA5455] px-4 py-2 border-none">Login</Link>
+                            <Link to='/login' className="btn bg-[#fe565a] px-4 py-2 border-none">Login</Link>
                         </div>
                 }
             </div>

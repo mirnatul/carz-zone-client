@@ -5,6 +5,8 @@ import Benifits from './Benifits/Benifits';
 import Gallary from './Gallary/Gallary';
 import SubCategoriesTab from './SubCategoriesTab/SubCategoriesTab';
 import Subscription from './Subscription/Subscription';
+import Testimonials from './Testimonials/Testimonials';
+import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
 
 Aos.init({
     duration: 1200,
@@ -17,17 +19,23 @@ const Home = () => {
             <div data-aos='fade-up'>
                 <Banner></Banner>
             </div>
-            <div data-aos='fade-down'>
+            <div data-aos='fade-up'>
                 <Gallary></Gallary>
             </div>
-            <div data-aos='fade-right'>
+            <div data-aos='fade-up'>
                 <SubCategoriesTab></SubCategoriesTab>
             </div>
-            <div data-aos='fade-left'>
+            <div data-aos='fade-up'>
                 <Benifits></Benifits>
             </div>
             <div data-aos='fade-up'>
                 <Subscription></Subscription>
+            </div>
+            <div data-aos='fade-up'>
+                <Testimonials></Testimonials>
+            </div>
+            <div data-aos='fade-up'>
+                <WhyChooseUs></WhyChooseUs>
             </div>
         </div>
     );
