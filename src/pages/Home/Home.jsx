@@ -7,6 +7,7 @@ import Gallary from './Gallary/Gallary';
 import SubCategoriesTab from './SubCategoriesTab/SubCategoriesTab';
 import Subscription from './Subscription/Subscription';
 import Testimonials from './Testimonials/Testimonials';
+import TopToys from './TopToys/TopToys';
 import WhyChooseUs from './WhyChooseUs/WhyChooseUs';
 
 Aos.init({
@@ -24,7 +25,7 @@ const Home = () => {
                 <Gallary></Gallary>
             </div>
             <div data-aos='fade-up'>
-                {/* top toy of our store */}
+                <TopToys></TopToys>
             </div>
             <div data-aos='fade-up'>
                 <SubCategoriesTab></SubCategoriesTab>

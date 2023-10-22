@@ -21,7 +21,7 @@ const SingleToy = ({ singleToy }) => {
             <td className='font-semibold text-slate-500'>${price}</td>
             <td className='font-semibold text-slate-500'>{available_quantity}</td>
             <th>
-                <Link to={`/all-toy/${_id}`} className="bg-yellow-400 py-2 px-4 rounded">Details</Link>
+                <Link to={`/all-toy/${_id}`} className="bg-[#fe565a] py-2 px-4 rounded">Details</Link>
             </th>
         </tr>
     );

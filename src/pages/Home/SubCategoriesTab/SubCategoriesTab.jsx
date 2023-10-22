@@ -29,7 +29,7 @@ const SubCategoriesTab = () => {
 
 
     return (
-        <div className='text-center mt-40 mb-10'>
+        <div className='text-center my-20'>
             <h2 className='lg:text-5xl text-3xl font-bold text-center mb-12'>Sub <span className='text-[#fe565a]'>Category</span></h2>
             <Tabs>
                 <TabList>

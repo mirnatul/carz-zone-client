@@ -6,7 +6,7 @@ const Details = () => {
     const { image, toy_name, seller_name, seller_email, price, ratings, available_quantity, details } = toyData;
     return (
         <div className='lg:max-w-7xl mx-auto p-6 mb-10'>
-            <h2 className='text-4xl font-semibold text-center my-8'>Car Details</h2>
+            <h2 className='text-4xl font-semibold text-center mb-8'>Car Details</h2>
             <div className='grid lg:grid-cols-2 lg:gap-20 gap-5 items-center'>
                 <div>
                     <img src={image} alt="" />
