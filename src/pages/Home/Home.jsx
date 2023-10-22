@@ -5,6 +5,7 @@ import Benifits from './Benifits/Benifits';
 import ContactUs from './ContactUs/ContactUs';
 import Events from './Events/Events';
 import Gallary from './Gallary/Gallary';
+import Offered from './Offered/Offered';
 import SubCategoriesTab from './SubCategoriesTab/SubCategoriesTab';
 import Subscription from './Subscription/Subscription';
 import Testimonials from './Testimonials/Testimonials';
@@ -32,7 +33,7 @@ const Home = () => {
                 <SubCategoriesTab></SubCategoriesTab>
             </div>
             <div data-aos='fade-up'>
-                {/* special offers */}
+                <Offered></Offered>
             </div>
             <div data-aos='fade-up'>
                 <Events></Events>
